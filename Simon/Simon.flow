@@ -1,0 +1,35 @@
+{
+
+  luxe:{
+      window: {
+        width:512,
+        height:512,
+        title:'Simon',
+        fullscreen:false,
+        resizable:true,
+        borderless:false
+      }
+    },
+  project : {
+    name : 'Simon',
+    version : '0.1',
+    author : 'John Doughty',
+
+    app : {
+      name : 'Simon',
+      package : ''
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*'
+      }
+    },
+    
+    files : {
+      images : 'img/'
+    }
+
+  }
+
+}
