@@ -1,0 +1,35 @@
+{
+
+  luxe:{
+      window: {
+        width:512,
+        height:512,
+        title:'Haxe Match 3',
+        fullscreen:false,
+        resizable:true,
+        borderless:false
+      }
+    },
+  project : {
+    name : 'Basic Match 3',
+    version : '0.1',
+    author : 'John Doughty',
+
+    app : {
+      name : 'Basic_Match_3',
+      package : ''
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*'
+      }
+    },
+    
+    files : {
+      images : 'img/'
+    }
+
+  }
+
+}
