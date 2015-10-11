@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"res",
+				"resize(...)	Unknown<9>"
+			],
+			[
+				"main",
+				"MainScene"
+			],
+			[
+				"alb",
+				"Absalom"
+			],
+			[
+				"vera",
+				"Veratul"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/scenes/MainScene.hx",
+			"settings":
+			{
+				"buffer_size": 718,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/entities/KMTest.hx",
+			"settings":
+			{
+				"buffer_size": 309,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/project.xml",
+			"settings":
+			{
+				"buffer_size": 807,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/Main.hx",
+			"settings":
+			{
+				"buffer_size": 292,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 173.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Haxelib: Install library"
+			],
+			[
+				"haxe",
+				"Haxelib: Install library"
+			],
+			[
+				"haxelib",
+				"Haxelib: List all"
+			],
+			[
+				"hax",
+				"Haxelib: Install library"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"haxelib ",
+				"Haxelib: Install library"
+			],
+			[
+				"inst",
+				"Haxelib: Install library"
+			],
+			[
+				"haxlib",
+				"Haxelib: Install library"
+			],
+			[
+				"buil",
+				"Haxe: Run build"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"haxelib run HaxePunk new TestProject",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/entities",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/scenes"
+	],
+	"file_history":
+	[
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/entities/TestText.hx",
+		"/C/Users/Fire Dragon/Documents/Haxe/HaxeTesting/PunkTest/bin/html5/bin/Main.js",
+		"/C/Users/Fire Dragon/Documents/Haxe/HaxeTesting/PunkTest/bin/html5/bin/index.html",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/build.hxml",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/build.hxml",
+		"/C/Users/Fire Dragon/Documents/Haxe/HaxeTesting/PunkTest/build.hxml",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/Main.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/scenes/MainScene.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/entities/Player.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/Scenes/FirstLevel.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/base/Actor.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/Actors/Player.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/scenes/Player.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/MainScene.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/FirstLevel.hx",
+		"/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/Scenes.hx",
+		"/C/Users/Fire Dragon/Documents/flixel-demos-master/Platformers/EZPlatformer/source/PlayState.hx",
+		"/C/Users/Fire Dragon/Documents/flixel-demos-master/Platformers/EZPlatformer/source/Main.hx",
+		"/C/Users/Fire Dragon/Documents/Haxe/HaxeTesting/test.as/__main__.as",
+		"/C/Users/Fire Dragon/Documents/Haxe/HaxeTesting/test.as/Test.as",
+		"/C/Users/Fire Dragon/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Fire Dragon/Documents/intel-xdk-projects/SpellsandStuff/www/index.html",
+		"/C/Users/Fire Dragon/Documents/intel-xdk-projects/SpellsandStuff/www/js/app.js",
+		"/C/Users/Fire Dragon/Documents/intel-xdk-projects/SpellsandStuff/www/js/init-app.js",
+		"/C/Users/Fire Dragon/Documents/intel-xdk-projects/SpellsandStuff/www/js/data.js",
+		"/C/Users/Fire Dragon/Documents/Haxe/HaxeTesting/test.js",
+		"/C/Users/Fire Dragon/Downloads/automatefifoschedule.html",
+		"/C/Users/Fire Dragon/Documents/backstory.json",
+		"/C/Users/Fire Dragon/Documents/hello.py",
+		"/C/Program Files/Blender Foundation/Blender/2.72/python/lib/encodings/__init__.py",
+		"/C/Users/Fire Dragon/AppData/Roaming/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/C/Users/Fire Dragon/Documents/Unreal Projects/ZAMNPrototype/Content/Maps/hedgemaze.umap"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Fire Dragon\\My Documents\\Haxe\\HaxeTesting\\PunkTest\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"base",
+			" m agic ",
+			",\n\n    \"FIELD32\":null",
+			"o f "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}\n",
+			"}",
+			" magic ",
+			"",
+			"of "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/scenes/MainScene.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"haxe-build-id": 0,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/entities/KMTest.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								288
+							]
+						],
+						"settings":
+						{
+							"haxe-build-id": 0,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/project.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Fire Dragon/My Documents/Haxe/HaxeTesting/PunkTest/src/Main.hx",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"haxe-build-id": 0,
+							"syntax": "Packages/Haxe/Haxe.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "PunkTest.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -8,28 +8,15 @@ import phoenix.BitmapFont;
 
 class Board 
 {
-    private var gems: Array<Gem> = [];
+    public static var gems: Array<Gem> = [];
     private var selectedGems: Array<Gem> = [];
     private static var board:Board = null;
-    private var score: Text;
-    private var font:BitmapFont = Luxe.resources.font('font/PressStart2P.ttf');
     //private var theFont:BitmapFont;
 
     private function new()
     {
-        var i: Int;
-        var x: Int;
-        var y: Int;
-        var numImage: Int;
-        score = new Text({
-            pos : Luxe.screen.mid,
-            point_size : Math.min( Math.round(Luxe.screen.h/12), 48),
-            depth : 3,
-            align : TextAlign.center,
-            text : 'no message yet',
-            font : font,
-            color : new Color(0,0,0,0).rgb(0x242424)
-        });
+        var i, x, y, numImage: Int;
+        
         for (i in 0...Main.BOARDWIDTH * Main.BOARDHEIGHT)
         {
             x = i % Main.BOARDWIDTH;
@@ -39,7 +26,7 @@ class Board
         }
         for (i in 0...gems.length) 
         {
-            buildNeighbors(gems[i]);
+            gems[i].buildNeighbors();
         }
     }
 
@@ -61,6 +48,7 @@ class Board
     @:extern private inline function getGemAtRowCol(x:Int, y:Int):Gem
     {
         var result:Gem = null;
+
         for (i in 0...gems.length) {
             if(gems[i].x == x && gems[i].y == y)
             {
@@ -74,6 +62,7 @@ class Board
     @:extern private inline function grabMatchingGems(firstGem:Gem, secondGem:Gem):Array<Gem>
     {
         var result: Array<Gem> = [];
+
         result = result.concat(firstGem.validateMove(secondGem));
         result = result.concat(secondGem.validateMove(firstGem));
         return result;
@@ -82,6 +71,7 @@ class Board
     @:extern private inline function getPostSwapMatches(): Array<Gem>
     {
         var testArray:Array<Gem> = [];
+
         for (i in 0...gems.length) 
         {
             testArray = testArray.concat(gems[i].validateMove(gems[i]));
@@ -115,6 +105,7 @@ class Board
     private function checkForMatch(?firstGem:Gem, ?secondGem:Gem):Void
     {
         var toExplode: Array<Gem> = [];
+
         if(firstGem != null && secondGem != null)
         {
             toExplode = grabMatchingGems(firstGem, secondGem);
@@ -157,13 +148,10 @@ class Board
 
     private function collapseGems():Void
     {
-        var i:Int = 0;
-        var iIndex:Int;
-        var j:Int = 0;
-        var jIndex:Int;
-        var shiftCount:Int = 0;
+        var i, iIndex, j, jIndex, shiftCount:Int = 0;
         var gem:Gem;
         var newGemCounts:Array<Int> = [];
+
         for (i in 0...Main.BOARDWIDTH)
         {
             iIndex = Main.BOARDWIDTH - i - 1;
@@ -190,9 +178,8 @@ class Board
     
     private function animateNewGems(newGemCounts:Array<Int>):Void
     {
-        var iIndex:Int;
-        var i:Int;
-        var j:Int;
+        var iIndex, i, j:Int;
+
         for(i in 0...newGemCounts.length)
         {
             iIndex = Main.BOARDWIDTH - i - 1;
@@ -207,7 +194,7 @@ class Board
         }
         for (i in 0...gems.length) 
         {
-            buildNeighbors(gems[i]);
+            gems[i].buildNeighbors();
         }
         checkForMatch();
     }

@@ -1,8 +1,10 @@
 package;
+
 import luxe.Sprite;
 import luxe.Color;
 import luxe.Vector;
 import luxe.Input;
+import luxe.Text;
 
 class Main extends luxe.Game
 {
@@ -24,11 +26,25 @@ class Main extends luxe.Game
     public static inline var RIGHT: String = 'right';
 
     public static inline var MININAROW: Int = 3;
+    
+    public static var disp : Text;
+
 
     override function ready()
     {
         newGame();
+
+        disp = new Text({
+            name:'display.text',
+            pos: new Vector(Luxe.screen.w-10, Luxe.screen.h-10),
+            align: luxe.TextAlign.right,
+            align_vertical: luxe.TextAlign.bottom,
+            point_size: 50,
+            depth:50,
+            text: 'usage text goes here'
+        });
     }
+
 
     public function newGame():Void
     {

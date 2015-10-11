@@ -1,0 +1,34 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"name": "PunkTest",
+			"path": "C:\\Users\\Fire Dragon\\My Documents\\Haxe\\HaxeTesting\\PunkTest"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "HaxePunk",
+			"path": "C:\\HaxeToolkit\\haxe\\lib\\HaxePunk\\2,5,3"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Haxe",
+			"path": "C:\\HaxeToolkit\\haxe\\std"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "HaxePunk Nape",
+			"path": "C:\\HaxeToolkit\\haxe\\lib\\HaxePunk-nape\\1,0,1"
+		},
+		{
+			"follow_symlinks": true,
+			"name": "Nape",
+			"path": "C:\\HaxeToolkit\\haxe\\lib\\nape\\2,0,16"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "C:\\HaxeToolkit\\haxe\\lib\\haxepunk-gui\\HaxePunk Gui"
+		}
+	]
+}

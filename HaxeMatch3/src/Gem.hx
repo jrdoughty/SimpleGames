@@ -76,6 +76,7 @@ class Gem extends Sprite
     {
         var result:Array<Gem> = [];
         var temp;
+
         if(gem.neighborNodes.exists(key))
         {
             if(gem.neighborNodes[key] != this && gem.neighborNodes[key].numImage == numImage)
@@ -92,6 +93,7 @@ class Gem extends Sprite
     {
         var result:Array<Gem> = [];
         var temp;
+        
         if(neighborNodes.exists(direction))
         {
             result.push(neighborNodes[direction]);
@@ -114,5 +116,32 @@ class Gem extends Sprite
         gem.pos = oldPos;
         gem.x = oldX;
         gem.y = oldY;
+    }
+
+
+    public function buildNeighbors():Void
+    {
+        var gemArray:Array<Gem> = Board.gems;
+
+        neighborNodes = new Map();
+        for (i in 0...gemArray.length) 
+        {
+            if(x == gemArray[i].x && y == gemArray[i].y - 1 && this != gemArray[i])
+            {
+                neighborNodes.set(Main.UP ,gemArray[i]);
+            }
+            else if(x == gemArray[i].x && y == gemArray[i].y + 1 && this != gemArray[i])
+            {
+                neighborNodes.set(Main.DOWN ,gemArray[i]);
+            }
+            else if(y == gemArray[i].y && x == gemArray[i].x - 1 && this != gemArray[i])
+            {
+                neighborNodes.set(Main.RIGHT ,gemArray[i]);
+            }
+            else if(y == gemArray[i].y && x == gemArray[i].x + 1 && this != gemArray[i])
+            {
+                neighborNodes.set(Main.LEFT ,gemArray[i]);
+            }
+        }
     }
 }
